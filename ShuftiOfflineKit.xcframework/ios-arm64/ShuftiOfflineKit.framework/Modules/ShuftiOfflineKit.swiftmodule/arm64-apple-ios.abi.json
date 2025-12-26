@@ -1,0 +1,2071 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ShuftiOfflineKit",
+    "printedName": "ShuftiOfflineKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShuftiOffline",
+        "printedName": "ShuftiOffline",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShuftiOffline",
+                "printedName": "ShuftiOfflineKit.ShuftiOffline",
+                "usr": "c:@M@ShuftiOfflineKit@objc(cs)ShuftiOffline"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ShuftiOfflineKit0aB0C6sharedACvpZ",
+            "mangledName": "$s16ShuftiOfflineKit0aB0C6sharedACvpZ",
+            "moduleName": "ShuftiOfflineKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiOffline",
+                    "printedName": "ShuftiOfflineKit.ShuftiOffline",
+                    "usr": "c:@M@ShuftiOfflineKit@objc(cs)ShuftiOffline"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ShuftiOfflineKit0aB0C6sharedACvgZ",
+                "mangledName": "$s16ShuftiOfflineKit0aB0C6sharedACvgZ",
+                "moduleName": "ShuftiOfflineKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configureModelPaths",
+            "printedName": "configureModelPaths(use_model_path:model_paths:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ShuftiOfflineKit0aB0C19configureModelPaths14use_model_path0H6_pathsySb_SDyS2SGtFZ",
+            "mangledName": "$s16ShuftiOfflineKit0aB0C19configureModelPaths14use_model_path0H6_pathsySb_SDyS2SGtFZ",
+            "moduleName": "ShuftiOfflineKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startAuthentication",
+            "printedName": "startAuthentication()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ShuftiOfflineKit0aB0C19startAuthenticationyyF",
+            "mangledName": "$s16ShuftiOfflineKit0aB0C19startAuthenticationyyF",
+            "moduleName": "ShuftiOfflineKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processFaceAutoCaptureFrame",
+            "printedName": "processFaceAutoCaptureFrame(frame:targetRect:viewBounds:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Double?, CoreFoundation.CGRect?, [CoreFoundation.CGPoint]?, ShuftiOfflineKit.ShuftiFaceErrorType?, [Swift.String]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double?, CoreFoundation.CGRect?, [CoreFoundation.CGPoint]?, ShuftiOfflineKit.ShuftiFaceErrorType?, [Swift.String]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreFoundation.CGRect?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGRect",
+                            "printedName": "CoreFoundation.CGRect",
+                            "usr": "c:@S@CGRect"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[CoreFoundation.CGPoint]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[CoreFoundation.CGPoint]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGPoint",
+                                "printedName": "CoreFoundation.CGPoint",
+                                "usr": "c:@S@CGPoint"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ShuftiFaceErrorType",
+                            "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ShuftiOfflineKit0aB0C27processFaceAutoCaptureFrame5frame10targetRect10viewBounds10completionySo7UIImageC_So6CGRectVALySdSg_ALSgSaySo7CGPointVGSgAA0aE9ErrorTypeOSgSaySSGSgtctF",
+            "mangledName": "$s16ShuftiOfflineKit0aB0C27processFaceAutoCaptureFrame5frame10targetRect10viewBounds10completionySo7UIImageC_So6CGRectVALySdSg_ALSgSaySo7CGPointVGSgAA0aE9ErrorTypeOSgSaySSGSgtctF",
+            "moduleName": "ShuftiOfflineKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processClassificationFrame",
+            "printedName": "processClassificationFrame(face:faceRect:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : ShuftiOfflineKit.ShuftiVerificationResult], [Swift.String : [Swift.String : Swift.Double]], [[Swift.String : Any]]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.String : ShuftiOfflineKit.ShuftiVerificationResult], [Swift.String : [Swift.String : Swift.Double]], [[Swift.String : Any]]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : ShuftiOfflineKit.ShuftiVerificationResult]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ShuftiVerificationResult",
+                            "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                            "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : [Swift.String : Swift.Double]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.Double]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ShuftiOfflineKit0aB0C26processClassificationFrame4face0G4Rect10completionySo7UIImageC_So6CGRectVySDySSAA0A18VerificationResultOG_SDySSSDySSSdGGSaySDySSypGGSgtctF",
+            "mangledName": "$s16ShuftiOfflineKit0aB0C26processClassificationFrame4face0G4Rect10completionySo7UIImageC_So6CGRectVySDySSAA0A18VerificationResultOG_SDySSSDySSSdGGSaySDySSypGGSgtctF",
+            "moduleName": "ShuftiOfflineKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bundle",
+            "printedName": "bundle()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ShuftiOfflineKit0aB0C6bundleSo8NSBundleCyFZ",
+            "mangledName": "$s16ShuftiOfflineKit0aB0C6bundleSo8NSBundleCyFZ",
+            "moduleName": "ShuftiOfflineKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ShuftiOfflineKit@objc(cs)ShuftiOffline",
+        "mangledName": "$s16ShuftiOfflineKit0aB0C",
+        "moduleName": "ShuftiOfflineKit",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceCheck",
+        "printedName": "DeviceCheck",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceCheck",
+        "printedName": "DeviceCheck",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShuftiVerificationResult",
+        "printedName": "ShuftiVerificationResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accepted",
+            "printedName": "accepted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiVerificationResult.Type) -> ShuftiOfflineKit.ShuftiVerificationResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiVerificationResult",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                    "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiVerificationResult",
+                        "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                        "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A18VerificationResultO8acceptedyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO8acceptedyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "declined",
+            "printedName": "declined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiVerificationResult.Type) -> ShuftiOfflineKit.ShuftiVerificationResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiVerificationResult",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                    "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiVerificationResult",
+                        "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                        "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A18VerificationResultO8declinedyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO8declinedyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiVerificationResult.Type) -> ShuftiOfflineKit.ShuftiVerificationResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiVerificationResult",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                    "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiVerificationResult",
+                        "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                        "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A18VerificationResultO5erroryA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO5erroryA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ShuftiOfflineKit.ShuftiVerificationResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiVerificationResult",
+                    "printedName": "ShuftiOfflineKit.ShuftiVerificationResult",
+                    "usr": "s:16ShuftiOfflineKit0A18VerificationResultO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16ShuftiOfflineKit0A18VerificationResultO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO8rawValueACSgSS_tcfc",
+            "moduleName": "ShuftiOfflineKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ShuftiOfflineKit0A18VerificationResultO8rawValueSSvp",
+            "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO8rawValueSSvp",
+            "moduleName": "ShuftiOfflineKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ShuftiOfflineKit0A18VerificationResultO8rawValueSSvg",
+                "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO8rawValueSSvg",
+                "moduleName": "ShuftiOfflineKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16ShuftiOfflineKit0A18VerificationResultO",
+        "mangledName": "$s16ShuftiOfflineKit0A18VerificationResultO",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShuftiFaceErrorType",
+        "printedName": "ShuftiFaceErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "faceNotFound",
+            "printedName": "faceNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO12faceNotFoundyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO12faceNotFoundyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "faceCut",
+            "printedName": "faceCut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO7faceCutyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO7faceCutyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moveCloser",
+            "printedName": "moveCloser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO10moveCloseryA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO10moveCloseryA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moveUpward",
+            "printedName": "moveUpward",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO10moveUpwardyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO10moveUpwardyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moveDownward",
+            "printedName": "moveDownward",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO12moveDownwardyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO12moveDownwardyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moveLeft",
+            "printedName": "moveLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO8moveLeftyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO8moveLeftyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moveRight",
+            "printedName": "moveRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO9moveRightyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO9moveRightyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moveFar",
+            "printedName": "moveFar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO7moveFaryA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO7moveFaryA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "faceNotStraight",
+            "printedName": "faceNotStraight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO15faceNotStraightyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO15faceNotStraightyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Var",
+            "name": "holdStill",
+            "printedName": "holdStill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ShuftiOfflineKit.ShuftiFaceErrorType.Type) -> ShuftiOfflineKit.ShuftiFaceErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShuftiFaceErrorType",
+                        "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO9holdStillyA2CmF",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO9holdStillyA2CmF",
+            "moduleName": "ShuftiOfflineKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShuftiFaceErrorType",
+                    "printedName": "ShuftiOfflineKit.ShuftiFaceErrorType",
+                    "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "ShuftiOfflineKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO8rawValueSSvp",
+            "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO8rawValueSSvp",
+            "moduleName": "ShuftiOfflineKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO8rawValueSSvg",
+                "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO8rawValueSSvg",
+                "moduleName": "ShuftiOfflineKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16ShuftiOfflineKit0A13FaceErrorTypeO",
+        "mangledName": "$s16ShuftiOfflineKit0A13FaceErrorTypeO",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShuftiOfflineKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/ShuftiOfflineKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 464,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/ShuftiOfflineKit.swift",
+      "kind": "Dictionary",
+      "offset": 525,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/AttestationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 30,
+      "value": "\"com.shufti.secureenclave.key\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/AttestationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 33,
+      "value": "\"com.shufti.model.decryption.key\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/AttestationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 30,
+      "value": "\"com.shufti.attestation.queue\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/AttestationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/AttestationManager.swift",
+      "kind": "Array",
+      "offset": 556,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayyManager.swift",
+      "kind": "Array",
+      "offset": 299,
+      "length": 21,
+      "value": "[0.485, 0.456, 0.406]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayyManager.swift",
+      "kind": "Array",
+      "offset": 352,
+      "length": 21,
+      "value": "[0.229, 0.224, 0.225]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7557,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/LoggingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 65,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/LoggingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/LoggingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/LoggingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/PrintManager.swift",
+      "kind": "Array",
+      "offset": 250,
+      "length": 21,
+      "value": "[0.485, 0.456, 0.406]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/PrintManager.swift",
+      "kind": "Array",
+      "offset": 303,
+      "length": 21,
+      "value": "[0.229, 0.224, 0.225]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/PrintManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6376,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/PrintManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6475,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ModelDecryptionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3006,
+      "length": 5,
+      "value": "\"bin\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ModelDecryptionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4858,
+      "length": 5,
+      "value": "\"bin\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Network\/APIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3297,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Network\/APIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3319,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ConvNextPreprocessor.swift",
+      "kind": "Array",
+      "offset": 193,
+      "length": 21,
+      "value": "[0.485, 0.456, 0.406]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ConvNextPreprocessor.swift",
+      "kind": "Array",
+      "offset": 250,
+      "length": 21,
+      "value": "[0.229, 0.224, 0.225]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ConvNextPreprocessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 310,
+      "length": 19,
+      "value": "0.00392156862745098"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/SiliconeManager.swift",
+      "kind": "Array",
+      "offset": 313,
+      "length": 21,
+      "value": "[0.485, 0.456, 0.406]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/SiliconeManager.swift",
+      "kind": "Array",
+      "offset": 366,
+      "length": 21,
+      "value": "[0.229, 0.224, 0.225]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/SiliconeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8038,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/SiliconeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8137,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MultiClassManager.swift",
+      "kind": "Array",
+      "offset": 260,
+      "length": 21,
+      "value": "[0.485, 0.456, 0.406]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MultiClassManager.swift",
+      "kind": "Array",
+      "offset": 313,
+      "length": 21,
+      "value": "[0.229, 0.224, 0.225]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MultiClassManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MultiClassManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/VerificationResult.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 23,
+      "value": "\"verification.accepted\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/VerificationResult.swift",
+      "kind": "StringLiteral",
+      "offset": 111,
+      "length": 23,
+      "value": "\"verification.declined\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/VerificationResult.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 20,
+      "value": "\"verification.error\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ModelKeyProvider.swift",
+      "kind": "Array",
+      "offset": 150,
+      "length": 134,
+      "value": "[\"8Dz\/y+6KDKqp61A6lg==\", \"PTDON22tnD8a9uqwOA==\", \"4WQz7g5avzbz8HcuRQ==\", \"CMEfvdTtjM2PKgNmvw==\"]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ModelKeyProvider.swift",
+      "kind": "Array",
+      "offset": 324,
+      "length": 24,
+      "value": "[0xB2, 0xC8, 0xD3, 0xE7]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ModelKeyProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 4,
+      "value": "0xA5"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayManager.swift",
+      "kind": "Array",
+      "offset": 252,
+      "length": 21,
+      "value": "[0.485, 0.456, 0.406]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayManager.swift",
+      "kind": "Array",
+      "offset": 305,
+      "length": 21,
+      "value": "[0.229, 0.224, 0.225]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/ReplayManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MediaPipeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MediaPipeManager.swift",
+      "kind": "Array",
+      "offset": 612,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MediaPipeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5592,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/MediaPipeManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 9296,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/ShuftiOfflineKitLogger.swift",
+      "kind": "Array",
+      "offset": 272,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/BaseInferenceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/BaseInferenceManager.swift",
+      "kind": "Array",
+      "offset": 860,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/BaseInferenceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 899,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/BaseInferenceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 65,
+      "length": 33,
+      "value": "\"Bring your face inside the oval\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 117,
+      "length": 37,
+      "value": "\"Face not fully visible, fit in oval\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 39,
+      "value": "\"Move closer and position face in oval\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 22,
+      "value": "\"Move the face upward\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 24,
+      "value": "\"Move the face downward\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 27,
+      "value": "\"Move the face to the left\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 28,
+      "value": "\"Move the face to the right\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 35,
+      "value": "\"Move far and adjust face position\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 41,
+      "value": "\"Keep your face straight and inside oval\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Utilities\/FaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 29,
+      "value": "\"Please keep your face still\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/CutoutManager.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 6,
+      "value": "\"CTMK\""
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/CutoutManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5808,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Managers\/CutoutManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5907,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Extensions\/UIImageExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1667,
+      "length": 3,
+      "value": "1.8"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Extensions\/UIImageExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1706,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/emaantahir\/Desktop\/ios-onsite-sdk\/ShuftiOfflineKit\/Extensions\/UIImageExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 3834,
+      "length": 12,
+      "value": "0.0039215686"
+    }
+  ]
+}
