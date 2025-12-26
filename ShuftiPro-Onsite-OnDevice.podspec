@@ -10,7 +10,7 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author       = { "Shufti Pro" => "support@shuftipro.com" }
 spec.platform     = :ios, "14.0"
 spec.source       = { :git => "https://github.com/shuftipro/ShuftiPro-Onsite-OnDevice.git", :tag => "#{spec.version}" }
-spec.ios.vendored_frameworks = 'ShuftiOfflineKit.xcframework'
+spec.ios.vendored_frameworks = 'ShuftiOfflineKit.framework'
 spec.dependency 'MediaPipeTasksVision', '0.10.3'
 spec.dependency 'onnxruntime-objc', '1.20.0'
 spec.swift_version = "5"
